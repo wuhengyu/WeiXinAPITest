@@ -1,2 +1,0 @@
-# WeiXinAPITest
-WeiXinAPITest
