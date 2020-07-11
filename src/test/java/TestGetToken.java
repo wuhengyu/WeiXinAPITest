@@ -1,4 +1,5 @@
-import com.weixin.apitest.wework.GetToken;
+import com.weixin.apitest.wework.GetTokenClass;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -10,10 +11,10 @@ import static org.hamcrest.Matchers.*;
  * Description:
  */
 public class TestGetToken {
+    @Disabled
     @Test
-    public void testToken() {
-        GetToken getToken = new GetToken();
-        String token = getToken.getToken();
+    public void testGetToken() {
+        String token = GetTokenClass.returnGetToken();
         assertThat(token, is(not(equalTo(null))));
     }
 }
