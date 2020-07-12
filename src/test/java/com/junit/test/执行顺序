@@ -1,0 +1,33 @@
+Junit5
+父类的@BeforeAllClass_fu
+    子类的@BeforeAllClass_zi
+        父类的@BeforeEach_fu
+            子类的@BeforeEach_zi
+                test01_fu
+            子类的@AfterEach_zi
+        父类的@AfterEach_fu
+
+        父类的@BeforeEach_fu
+            子类的@BeforeEach_zi
+                test02_fu
+            子类的@AfterEach_zi
+        父类的@AfterEach_fu
+
+        父类的@BeforeEach_fu
+            子类的@BeforeEach_zi
+                test01_zi
+            子类的@AfterEach_zi
+        父类的@AfterEach_fu
+
+        父类的@BeforeEach_fu
+            子类的@BeforeEach_zi
+                test02_zi
+            子类的@AfterEach_zi
+        父类的@AfterEach_fu
+    子类的@AfterAllClass_zi
+父类的@AfterAllClass_fu
+
+执行带样式的报告
+mvn test surefire-report:report site -DgenerateReports=false
+执行具体测试case带样式的报告
+mvn test surefire-report:report site -DgenerateReports=false -Dtest=JunitTest
