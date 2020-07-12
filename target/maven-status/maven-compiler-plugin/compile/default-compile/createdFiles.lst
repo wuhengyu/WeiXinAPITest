@@ -1,0 +1,5 @@
+com\weixin\apitest\wework\contact\Department.class
+com\weixin\apitest\wework\contact\Member.class
+com\weixin\apitest\wework\contact\Tag.class
+com\weixin\apitest\wework\WeXinConfig.class
+com\weixin\apitest\wework\GetTokenClass.class

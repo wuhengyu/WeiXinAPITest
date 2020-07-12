@@ -1,0 +1,9 @@
+TestGetToken.class
+com\junit\test\TestJunitExtends2.class
+com\junit\test\Stage.class
+com\junit\test\SuiteTest2.class
+com\junit\test\TestJunitExtends.class
+com\weixin\apitest\wework\contact\DepartmentTest.class
+com\junit\test\SuiteTest.class
+com\junit\test\Prod.class
+com\junit\test\JunitTest.class
